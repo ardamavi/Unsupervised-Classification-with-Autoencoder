@@ -5,4 +5,4 @@ Using Autoencoders for classification as unsupervised machine learning algorithm
 
 Give the 'images' and 'number of the class', then let the program do the rest!
 
-Look up: [Unsupervised Classification With Autoencoder.ipynb](Unsupervised Classification With Autoencoder.ipynb)
+Project in `Unsupervised Classification With Autoencoder.ipynb` file.
