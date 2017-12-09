@@ -22,12 +22,12 @@ def get_dataset(dataset_path='Data/Train_Data'):
         labels = listdir(dataset_path) # Geting labels
         X = []
         Y = []
-        for label in labels:
+        for i, label in enumerate(labels):
             datas_path = dataset_path+'/'+label
             for data in listdir(datas_path):
                 img = get_img(datas_path+'/'+data)
                 X.append(img)
-                Y.append(int(label))
+                Y.append(i)
         # Create dateset:
         X = np.array(X).astype('float32')/255.
         Y = np.array(Y).astype('float32')
