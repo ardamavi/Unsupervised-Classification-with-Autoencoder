@@ -1,4 +1,5 @@
 __pycache__
 *.pyc
 .DS_Store
-Data/npy_train_data
+*npy_train_data
+*.ipynb_checkpoints
